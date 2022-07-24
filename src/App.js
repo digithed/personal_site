@@ -4,7 +4,7 @@ import SideBar from './components/SideBar';
 
 function App() {
   return (
-    <div className='h-min-screen bg-gradient-to-r from-rose-200 to-orange-300'>
+    <div className='h-screen bg-gradient-to-r from-rose-200 to-orange-300'>
       <SideBar />
       <div className='pl-40 container mx-auto'>
 
