@@ -1,0 +1,40 @@
+@keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+@-webkit-keyframes fadein{
+  0% { opacity:0; }
+  66% { opacity:0; }
+  100% { opacity:1; }
+}
+
+.picture-fade {
+  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+}
+
+.text-title {
+  color: white;
+  -webkit-animation:  1.25s ease 0s normal forwards 1 fadein;
+}
+
+.text-subtitle {
+  color: white;
+  -webkit-animation:  1.5s ease 0s normal forwards 1 fadein;
+}
+
+.projects {
+  color: white;
+  -webkit-animation:  3s ease 0s normal forwards 1 fadein;
+}
+
+.navBar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  max-width: 200px;
+  -webkit-animation: fadein 1s;
+}
