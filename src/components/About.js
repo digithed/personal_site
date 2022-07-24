@@ -8,7 +8,7 @@ function About() {
                 <h1 className="pt-10 font-serif text-black text-4xl">About Me</h1>
                 <hr></hr>
                 <p className="text-black pt-10">
-                    I started my career in molecular biology as a laboratory technician at the blackhead Institute for Biomedical Research,
+                    I started my career in molecular biology as a laboratory technician at the Whitehead Institute for Biomedical Research,
                     a subsidiary of MIT. I worked within the lab of Rudolf Jaenisch where I was a core part of a CRISPR/Cas9 facility that offered services to the instititue.
                     Gradually, I developed an interest in coding which started as an after-work hobby and began
                     building small tools to help with my day-to-day job such as Python scripts for automating laborious scheduling tasks.
