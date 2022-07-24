@@ -3,19 +3,16 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
 
- jobs:
+jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: "read"
       id-token: "write"
- steps:
+
+    steps:
       - uses: actions/checkout@v2
-      # Frontend
       - name: Install Node.js
         uses: actions/setup-node@v1
         with:
