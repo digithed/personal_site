@@ -16,17 +16,17 @@
 
 .text-title {
   color: white;
-  -webkit-animation:  1.25s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  1s ease 0s normal forwards 1 fadein;
 }
 
 .text-subtitle {
   color: white;
-  -webkit-animation:  1.5s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  1.25s ease 0s normal forwards 1 fadein;
 }
 
 .projects {
   color: white;
-  -webkit-animation:  3s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  2.5s ease 0s normal forwards 1 fadein;
 }
 
 .navBar {
@@ -35,6 +35,6 @@
   right: 0;
   top: 0;
   bottom: 0;
-  max-width: 200px;
-  -webkit-animation: fadein 1s;
+  max-width: 250px;
+  /* -webkit-animation: fadein 1s; */
 }

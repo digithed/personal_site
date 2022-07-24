@@ -5,9 +5,12 @@ function ProjectCard (props) {
     return(
         <div>
             <a href={props.link}>
-              <div style={{ 'width': '200px', 'height': '200px' }} className='rounded-xl bg-white hover:shadow-xl hover:shadow-slate-500'>
-                <h1 className='p-2 text-black font-serif text-lg'>{props.project_name}</h1>
-                <h2 className='p-2 text-black font-serif text-md'>{props.project_description}</h2>
+              <div style={{ 'width': '220px', 'height': '220px' }} className='rounded-xl bg-white hover:shadow-lg hover:shadow-white'>
+                <div className="flex flex-row">
+                <h1 className='p-5 text-black font-serif text-lg'>{props.project_name}</h1>
+                <img className='h-7 w-7 rounded-full mt-4' alt='dna' src={props.icon}/>
+                </div>
+                <h2 className='p-5 text-black font-serif text-md'>{props.project_description}</h2>
               </div>
             </a>
         </div>
