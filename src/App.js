@@ -17,7 +17,7 @@ function App() {
           <div className='flex flex-row '>
           <div>
             <h1 className='pl-5 text-title font-serif pt-10 text-4xl font-bold'>Nick Rosenau</h1>
-            <h3 className='pl-5 text-subtitle font-serif pt-10 text-xl font-bold'>Full-stack software engineer</h3>
+            <h3 className='pl-5 text-subtitle font-mono pt-10 text-lg font-bold'>Full-stack software engineer</h3>
             <h3 className='pl-5 pb-5 text-subtitle font-serif text-xl font-bold'>Life sciences aficionado</h3>
             {/* <h3 className='p-5 text-extra italic font-serif pt-10 text-2xl font-bold shadow-sm'>Funky AND Fresh</h3> */}
           </div>
