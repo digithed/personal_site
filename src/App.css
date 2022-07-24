@@ -15,17 +15,17 @@
 }
 
 .text-title {
-  color: white;
+
   -webkit-animation:  1s ease 0s normal forwards 1 fadein;
 }
 
 .text-subtitle {
-  color: white;
+
   -webkit-animation:  1.25s ease 0s normal forwards 1 fadein;
 }
 
 .projects {
-  color: white;
+
   -webkit-animation:  2.5s ease 0s normal forwards 1 fadein;
 }
 
