@@ -17,7 +17,7 @@ function App() {
             {/* <h3 className='p-5 text-extra italic font-serif pt-10 text-2xl font-bold shadow-sm'>Funky AND Fresh</h3> */}
           </div>
           <div className='pb-3 pl-10'>
-            <img style={{ 'width': '200px', 'height': '200px' }} className='picture-fade rounded-full shadow-xl' src='me.png'></img>
+            <img alt="me" style={{ 'width': '200px', 'height': '200px' }} className='picture-fade rounded-full shadow-xl' src='me.png'></img>
           </div>
           </div>
         </div>
