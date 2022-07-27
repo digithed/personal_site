@@ -26,7 +26,7 @@
 
 .projects {
 
-  -webkit-animation:  2.5s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  1s ease 0s normal forwards 1 fadein;
 }
 
 .navBar {
@@ -38,3 +38,69 @@
   max-width: 250px;
   /* -webkit-animation: fadein 1s; */
 }
+
+.node-x {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  animation-name: stretch-x;
+  animation-duration: 6s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+ 
+}
+
+.node-y {
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  animation-name: stretch-y;
+  animation-duration: 6s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+ 
+}
+
+@keyframes stretch-x {
+  0% {
+    transform: scale(.3);
+    background-color: skyblue;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: aquamarine;
+  }
+  100% {
+    transform: scale(1.5);
+    transform: translateX( calc(20vw - 100px ));
+    /* transform: translateY( calc(100vh - 100px )); */
+    background-color: lightgreen;
+  }
+}
+
+
+@keyframes stretch-y {
+  0% {
+    transform: scale(.3);
+    background-color: skyblue;
+    border-radius: 100%;
+  }
+  50% {
+    background-color: aquamarine;
+  }
+  100% {
+    transform: scale(1.5);
+    transform: translateY( calc(25vh - 100px ));
+    /* transform: translateY( calc(100vh - 100px )); */
+    background-color: lightgreen;
+  }
+}
+

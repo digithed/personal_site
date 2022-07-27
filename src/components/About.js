@@ -1,12 +1,18 @@
 import SideBar from "./SideBar";
 
+import { Blockquote  } from '@mantine/core';
 function About() {
     return (
-        <div className='h-screen bg-gradient-to-r from-rose-200 to-orange-300'>
+        <div>
             <SideBar />
+
+        <div className="pb-40">
             <div className='text-title pl-40 container mx-auto'>
                 <h1 className="pt-10 font-serif text-black text-4xl">About Me</h1>
-                <hr></hr>
+                <hr className="pb-10"></hr>
+                <Blockquote cite="– Richard Feynman">
+                Nobody ever figures out what life is all about, and it doesn't matter. Explore the world. Nearly everything is really interesting if you go into it deeply enough.
+          </Blockquote>
                 <p className="text-black pt-10">
                     I started my career in molecular biology as a laboratory technician at the Whitehead Institute for Biomedical Research,
                     a subsidiary of MIT. I worked within the lab of Rudolf Jaenisch where I was a core part of a CRISPR/Cas9 facility that offered services to the instititue.
@@ -31,6 +37,7 @@ function About() {
                     I'll be able to grow positively as a software engineer, scientist, and entrepenuer.
                 </p>
             </div>
+        </div>
         </div>
     )
 }
