@@ -23,7 +23,7 @@ function App() {
     <div className='bg-beige-200'>
       {returnNodes(20)}
       <SideBar />
-      <div className='pl-40 container mx-auto'>
+      <div className='container mx-auto'>
 
         <div className='pt-10 place-content-center flex'>
           <div className='mb-20 p-10'>
