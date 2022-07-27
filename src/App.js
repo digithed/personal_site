@@ -3,7 +3,7 @@ import SideBar from './components/SideBar';
 import { FiMail } from "react-icons/fi";
 
 function App() {
-  const randomArr = Array.from({ length: 800 }, (v, k) => k + 25)
+  const randomArr = Array.from({ length: 600 }, (v, k) => k + 25)
 
   const getRand = () => {
     return randomArr[Math.floor(Math.random() * randomArr.length)]

@@ -42,7 +42,6 @@
 .node-x {
   height: 50px;
   width: 50px;
-  margin: 0 auto;
   animation-name: stretch-x;
   animation-duration: 6s; 
   animation-timing-function: ease-out; 
