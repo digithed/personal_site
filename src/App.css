@@ -11,22 +11,22 @@
 }
 
 .picture-fade {
-  -webkit-animation: 2s ease 0s normal forwards 1 fadein;
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
 }
 
 .text-title {
 
-  -webkit-animation:  1s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  0.5s ease 0s normal forwards 1 fadein;
 }
 
 .text-subtitle {
 
-  -webkit-animation:  1.25s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  0.75s ease 0s normal forwards 1 fadein;
 }
 
 .projects {
 
-  -webkit-animation:  1s ease 0s normal forwards 1 fadein;
+  -webkit-animation:  0.5s ease 0s normal forwards 1 fadein;
 }
 
 .navBar {
@@ -101,5 +101,13 @@
     /* transform: translateY( calc(100vh - 100px )); */
     background-color: lightgreen;
   }
+}
+
+.navbar {
+  box-shadow: 0 2px 8px #f0f1f2;
+}
+
+.border-right {
+  border-right: 1px solid #f0f0f0;
 }
 

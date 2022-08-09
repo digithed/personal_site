@@ -1,10 +1,10 @@
-import SideBar from "./SideBar";
+import NavBar from "./NavBar";
 
 import { Blockquote  } from '@mantine/core';
 function About() {
     return (
         <div>
-            <SideBar />
+            <NavBar />
 
         <div className="pb-40">
             <div className='text-title container mx-auto'>
@@ -20,7 +20,7 @@ function About() {
                     building small tools to help with my day-to-day job such as Python scripts for automating laborious scheduling tasks.
                 </p>
                 <div style={{'float': 'right'}} className="pl-5">
-                <img style={{'width': '300px', 'height': '350px'}} className='rounded-full shadow-xl shadow-white' alt='charlie and I' src='me_2.jpg' />
+                <img style={{'width': '300px', 'height': '300px'}} className='rounded-full shadow-xl shadow-white' alt='charlie and I' src='me_2.jpg' />
                 </div>
                 <p style={{'textAlign': 'justify'}} className="text-black">
                     <br></br>
