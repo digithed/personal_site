@@ -115,7 +115,9 @@
   border-right: 1px solid #f0f0f0;
 }
 
-#mysvg
+#mysvg{
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+}
 #circle1  {
   animation: loop 10s infinite;
 }
