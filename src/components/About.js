@@ -6,7 +6,7 @@ function About() {
         <div>
             <NavBar />
 
-        <div className="pb-40">
+        <div className="pb-20 pt-10">
             <div className='text-title container mx-auto'>
                 <h1 className="pt-10 font-serif text-black text-4xl">About Me</h1>
                 <hr className="pb-10"></hr>

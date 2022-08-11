@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='bg-beige-200'>
       <NavBar />
-      <div className='container mx-auto'>
+      <div className='pt-10 container mx-auto'>
 
         <div className='pt-10 place-content-center flex'>
           <div className='mb-20 p-10'>

@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function NavBar() {
     return (
-        <div className="relative z-100 navbar">
+        <div className="navbar">
             <div className="top-0 left-0 flex flex-row">
             <Link to="/">
                 <div className="p-3.5 flex items-center space-x-3 hover:bg-sky-100 border-right">
