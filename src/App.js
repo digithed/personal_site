@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { FiMail } from "react-icons/fi";
-import Arrows from './components/Arrows';
+import FoxOne from './components/FoxOne';
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
         <div className='pt-10 place-content-center flex'>
           <div className='mb-20 p-10'>
           <div className='absolute bottom-20 mb-10 z-0'>
-                <Arrows />
+                <FoxOne />
                 <p className='absolute left-20 z-0 text-xs text-slate-400 subtext'>SVG designed by me</p>
                 </div>
             <div style={{ 'width': '600px', 'height': '450px' }} className='bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>

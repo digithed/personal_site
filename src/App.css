@@ -178,5 +178,36 @@
 } 
 
 
+#mysvg2{
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+}
+#mysvg2circle1  {
+  animation: up 10s infinite;
+}
+#mysvg2circle2 {
+  animation: up 10s infinite;
+}
+#mysvg2circle3 {
+  animation: up 10s infinite;
+}
+#mysvg2circle4 {
+  animation: up 10s infinite;
+
+}
+#mysvg2circle5 {
+  animation: up 10s infinite;
+
+}
+
+
+@keyframes up {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translateY(-150%);
+  }
+} 
 
 

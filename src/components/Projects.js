@@ -1,3 +1,4 @@
+import FoxTwo from "./FoxTwo"
 import NavBar from "./NavBar"
 import ProjectCard from "./ProjectCard"
 function Projects() {
@@ -15,6 +16,10 @@ function Projects() {
                 <ProjectCard project_name={'TBD'} link={""} project_description={'TBD'} icon={'dna.png'} />
             </div>
         </div>
+        <div className='absolute bottom-10 top-10 z-0'>
+                <FoxTwo />
+                <p className='absolute left-20 z-0 text-xs text-slate-400 subtext'>SVG designed by me</p>
+                </div>
         </div>
     )
 }
