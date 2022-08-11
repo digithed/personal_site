@@ -13,7 +13,7 @@ function App() {
           <div className='mb-20 p-10 relative'>
           <div className='absolute bottom-10 mr-10 mb-10 z-0'>
                 <FoxOne />
-                <p className='absolute left-10 z-0 text-xs text-slate-400 subtext'>"Fen"<p>SVG designed by me</p></p>
+                <p className='absolute left-10 z-0 text-xs text-slate-400 subtext'>SVG designed by Nick Rosenau</p>
                 </div>
             <div style={{ 'width': '600px', 'height': '450px' }} className='relative bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
               <div>
