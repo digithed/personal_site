@@ -18,7 +18,7 @@ function Projects() {
         </div>
         <div className='absolute bottom-10 top-10 z-0'>
                 <FoxTwo />
-                <p className='absolute left-20 z-0 text-xs text-slate-400 subtext'>SVG designed by me</p>
+                <p className='absolute left-20 z-0 text-xs text-slate-400 subtext'>"Fen"<p>SVG designed by me</p></p>
                 </div>
         </div>
     )
