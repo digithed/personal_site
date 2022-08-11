@@ -115,3 +115,52 @@
   border-right: 1px solid #f0f0f0;
 }
 
+#mysvg
+#circle1  {
+  animation: loop 10s infinite;
+}
+#circle2 {
+  animation: loop2 10s infinite;
+}
+#circle3 {
+  animation: loop2 10s infinite;
+}
+#circle4 {
+  animation: loop 10s infinite;
+}
+
+
+/* #Frame1
+#triangle2 {
+  animation: loop2 3s infinite;
+
+}
+#triangle3 {
+  animation: loop 3s infinite;
+
+} */
+
+
+@keyframes loop {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(-20%, 20%);
+  }
+} 
+
+@keyframes loop2 {
+  from {
+    transform: translate(0);
+  }
+
+  to {
+    transform: translate(20%, -20%);
+  }
+} 
+
+
+
+

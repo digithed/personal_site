@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { FiMail } from "react-icons/fi";
+import Arrows from './components/Arrows';
 
 function App() {
 
@@ -8,19 +9,21 @@ function App() {
     <div className='bg-beige-200'>
       <NavBar />
       <div className='pt-10 container mx-auto'>
-
         <div className='pt-10 place-content-center flex'>
           <div className='mb-20 p-10'>
-
-
+          <div className='absolute bottom-20 mb-10 z-0'>
+                <Arrows />
+                <p className='absolute left-20 z-0 text-xs text-slate-400'>SVG designed by me</p>
+                </div>
             <div style={{ 'width': '600px', 'height': '450px' }} className='bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
-
               <div>
-              <img alt="me" style={{ 'width': '180px', 'height': '150px'}} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
+              
+                <img alt="me" style={{ 'width': '180px', 'height': '150px' }} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
               </div>
               <div className='text-center'>
                 <h1 className='pl-5 text-title font-mono pt-10 text-4xl font-bold'>Nick Rosenau</h1>
-                <h3 className='pl-5 text-subtitle font-mono pt-10 text-lg font-bold'>Full-stack software engineer</h3>
+                  <h3 className='pl-5 text-subtitle font-mono pt-10 text-lg font-bold'>Full-stack software engineer</h3>
+          
                 <h3 className='pl-5 text-subtitle font-mono pt-5 text-sm font-bold'>Programming Languages, Machine Learning, Life Sciences</h3>
               </div>
               <div className='flex flex-row place-content-center pt-10 space-x-4'>
