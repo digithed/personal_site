@@ -13,7 +13,7 @@ function App() {
           <div className='mb-20 p-10'>
           <div className='absolute bottom-20 mb-10 z-0'>
                 <Arrows />
-                <p className='absolute left-20 z-0 text-xs text-slate-400'>SVG designed by me</p>
+                <p className='absolute left-20 z-0 text-xs text-slate-400 subtext'>SVG designed by me</p>
                 </div>
             <div style={{ 'width': '600px', 'height': '450px' }} className='bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
               <div>

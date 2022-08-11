@@ -118,6 +118,9 @@
 #mysvg{
   -webkit-animation: 1s ease 0s normal forwards 1 fadein;
 }
+.subtext {
+  animation: slidein 2s ease;
+}
 #circle1  {
   animation: loop 10s infinite;
 }
@@ -142,6 +145,17 @@
 
 } */
 
+@keyframes slidein {
+  from {
+    opacity: 0;
+    transform: translateX(-20%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+} 
 
 @keyframes loop {
   from {
