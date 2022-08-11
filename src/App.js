@@ -3,25 +3,9 @@ import NavBar from './components/NavBar';
 import { FiMail } from "react-icons/fi";
 
 function App() {
-  // const randomArr = Array.from({ length: 600 }, (v, k) => k + 25)
-
-  // const getRand = () => {
-  //   return randomArr[Math.floor(Math.random() * randomArr.length)]
-  // }
-
-  // const returnNodes = (num) => {
-  //   const nodes = Array.from({ length: num }, (v, k) => k + 1).map((item) => {
-  //     return (
-  //       <div style={{ 'top': `${getRand()}px`, 'left': `${getRand() * 1.5}px`, 'right': `${getRand() * 1.5}px`, 'bottom': `${getRand()}px` }} className='absolute node-x z-0'></div>
-  //     )
-  //   })
-
-  //   return nodes
-  // }
 
   return (
     <div className='bg-beige-200'>
-      {/* {returnNodes(20)} */}
       <NavBar />
       <div className='container mx-auto'>
 
@@ -32,7 +16,7 @@ function App() {
             <div style={{ 'width': '600px', 'height': '450px' }} className='bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
 
               <div>
-              <img alt="me" style={{ 'width': '180px', 'height': '150px'}} className='relative ml-auto mr-auto picture-fade rounded-full shadow-xl' src='me.png'></img>
+              <img alt="me" style={{ 'width': '180px', 'height': '150px'}} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
               </div>
               <div className='text-center'>
                 <h1 className='pl-5 text-title font-mono pt-10 text-4xl font-bold'>Nick Rosenau</h1>

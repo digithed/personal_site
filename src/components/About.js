@@ -20,7 +20,7 @@ function About() {
                     building small tools to help with my day-to-day job such as Python scripts for automating laborious scheduling tasks.
                 </p>
                 <div style={{'float': 'right'}} className="pl-5">
-                <img style={{'width': '300px', 'height': '300px'}} className='rounded-full shadow-xl shadow-white' alt='charlie and I' src='me_2.jpg' />
+                <img style={{'width': '250px', 'height': '300px'}} className='rounded-xl shadow-xl shadow-white' alt='charlie and I' src='me_2.jpg' />
                 </div>
                 <p style={{'textAlign': 'justify'}} className="text-black">
                     <br></br>
