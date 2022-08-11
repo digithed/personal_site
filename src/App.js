@@ -10,12 +10,12 @@ function App() {
       <NavBar />
       <div className='pt-10 container mx-auto'>
         <div className='pt-10 place-content-center flex'>
-          <div className='mb-20 p-10'>
-          <div className='absolute bottom-20 mb-10 z-0'>
+          <div className='mb-20 p-10 relative'>
+          <div className='absolute bottom-10 mr-10 mb-10 z-0'>
                 <FoxOne />
                 <p className='absolute left-10 z-0 text-xs text-slate-400 subtext'>"Fen"<p>SVG designed by me</p></p>
                 </div>
-            <div style={{ 'width': '600px', 'height': '450px' }} className='bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
+            <div style={{ 'width': '600px', 'height': '450px' }} className='relative bg-beige-200 text-title rounded-xl shadow-sky-300 shadow-lg p-5 z-100'>
               <div>
               
                 <img alt="me" style={{ 'width': '180px', 'height': '150px' }} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
