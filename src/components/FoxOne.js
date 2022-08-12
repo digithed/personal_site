@@ -3,7 +3,7 @@ const FoxOne = () => {
 
     return (
         <svg width="292" height="231" viewBox="0 0 292 231" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g opacity="0.5" filter="url(#filter0_f_10_14)">
+            <g id='circle5' opacity="0.5" filter="url(#filter0_f_10_14)">
                 <ellipse cx="140" cy="80.5" rx="43" ry="41.5" fill="#ADD8E6" />
             </g>
             <g id='circle4' opacity="0.5" filter="url(#filter1_i_10_14)">

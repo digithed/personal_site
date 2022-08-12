@@ -1,3 +1,4 @@
+import Robot from "./Robot"
 import FoxTwo from "./FoxTwo"
 import NavBar from "./NavBar"
 import ProjectCard from "./ProjectCard"
@@ -16,9 +17,12 @@ function Projects() {
                     <ProjectCard project_name={'TBD'} link={""} project_description={'TBD'} icon={'dna.png'} />
                 </div>
             </div>
-            <div className='absolute bottom-10 top-10 z-0'>
+            <div className='absolute top-10 z-0'>
                 <FoxTwo />
-                </div>
+            </div>
+            <div className='absolute mt-10 top-40 right-0 z-0'>
+                <Robot eye1={'eye1angry'} eye2={'eye2angry'} sensor={"angrysensor"} />
+            </div>
         </div>
     )
 }
