@@ -12,7 +12,7 @@ const FoxTwo = (props) => {
         }
     }, [props.size])
     return (
-        <svg width={width} height={height} viewBox="0 0 292 231" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="fox2" width={width} height={height} viewBox="0 0 292 231" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id='mysvg2circle5' opacity="0.5" filter="url(#filter0_f_10_14)">
                 <ellipse cx="140" cy="80.5" rx="43" ry="41.5" fill="#ADD8E6" />
             </g>

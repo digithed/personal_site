@@ -115,7 +115,7 @@
   border-right: 1px solid #f0f0f0;
 }
 
-#mysvg{
+#fox1 {
   -webkit-animation: 1s ease 0s normal forwards 1 fadein;
 }
 .subtext {
@@ -181,7 +181,7 @@
 } 
 
 
-#mysvg2{
+#fox2 {
   -webkit-animation: 1s ease 0s normal forwards 1 fadein;
 }
 #mysvg2circle1  {
@@ -213,6 +213,9 @@
   }
 } 
 
+#robot {
+  -webkit-animation: 1s ease 0s normal forwards 1 fadein;
+}
 #eye1 {
   animation: openeyes 9s ;
 }

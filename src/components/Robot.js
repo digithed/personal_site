@@ -2,7 +2,7 @@
 const Robot = (props) => {
 
     return (
-        <svg width="224" height="221" viewBox="0 0 224 221" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="robot" width="224" height="221" viewBox="0 0 224 221" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="Frame 6">
                 <g id="Rectangle 2" filter="url(#filter0_d_25_2)">
                     <rect x="78" y="56" width="70" height="59" fill="#FAF9F6" />
