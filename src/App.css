@@ -324,17 +324,17 @@
 }
 
 .background-image-home {
-  background-image: url('../public/abstract.png');
+  background-image: url('/abstract.png');
   height: 100vh;
 }
 
 .background-image-about {
-  background-image: url('../public/beach.png');
+  background-image: url('/beach.png');
   height: 110vh;
 }
 
 .background-image-projects {
-  background-image: url('../public/ocean.png');
+  background-image: url('/ocean.png');
   height: 100vh;
 }
 
