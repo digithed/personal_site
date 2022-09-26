@@ -4,7 +4,7 @@ import NavBar from "./NavBar"
 import ProjectCard from "./ProjectCard"
 function Projects() {
     return (
-        <div className="relative z-10">
+        <div className="relative z-10 background-image-projects">
 
             <NavBar />
 
@@ -12,7 +12,7 @@ function Projects() {
                 <div className='pb-1 pl-5 font-serif text-2xl font-bold'>Projects</div>
                 <hr className='pb-5'></hr>
                 <div className='place-content-center flex flex-row space-x-10 z-100'>
-                    <ProjectCard project_name={'Cascade'} link={"https://github.com/digithed/cascade"} project_description={'A programming language for rethinking experimental design'} icon={'wave.png'} />
+                    <ProjectCard project_name={'Mona'} link={"https://github.com/digithed/cascade"} project_description={'A programming language for experimental design'} icon={'wave.png'} />
                     <ProjectCard project_name={'BLAST'} link={""} project_description={'A BLAST software as a service (SaaS) tool'} icon={'dna.png'} />
                     <ProjectCard project_name={'TBD'} link={""} project_description={'TBD'} icon={'dna.png'} />
                 </div>

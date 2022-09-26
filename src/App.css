@@ -107,7 +107,7 @@
   box-shadow: 0 2px 8px #f0f1f2;
   z-index: 100;
   position: fixed;
-  background-color: white;
+  background-color: beige;
   width: 100%;
 }
 
@@ -317,6 +317,31 @@
 100% {
     fill: red
 }
+}
+
+.bgimage {
+  background-color: #f2eecb !important;
+}
+
+.background-image-home {
+  background-image: url('../public/abstract.png');
+  height: 100vh;
+}
+
+.background-image-about {
+  background-image: url('../public/beach.png');
+  height: 110vh;
+}
+
+.background-image-projects {
+  background-image: url('../public/ocean.png');
+  height: 100vh;
+}
+
+
+
+.card-background {
+  background-color: beige;
 }
 
 
