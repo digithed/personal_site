@@ -107,7 +107,7 @@
   box-shadow: 0 2px 8px #f0f1f2;
   z-index: 100;
   position: fixed;
-  background-color: beige;
+  background-color: #C8E2CD;
   width: 100%;
 }
 
@@ -324,7 +324,7 @@
 }
 
 .background-image-home {
-  background-image: url('../public/abstract.png');
+  background-image: url('../public/new-bg.png');
   height: 100vh;
 }
 
@@ -341,7 +341,13 @@
 
 
 .card-background {
-  background-color: beige;
+  background-color: #57A998
+  
+}
+
+.card-background-inner {
+  background-color: #C8E2CD
+  
 }
 
 

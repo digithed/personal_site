@@ -4,17 +4,17 @@ import NavBar from "./NavBar"
 import ProjectCard from "./ProjectCard"
 function Projects() {
     return (
-        <div className="relative z-10 background-image-projects">
+        <div className="font-mono z-10 bg-teal-400 h-screen">
 
             <NavBar />
 
             <div className='projects p-20'>
-                <div className='pb-1 pl-5 font-serif text-2xl font-bold'>Projects</div>
+                <div className='pb-1 pl-5 text-2xl font-bold'>Projects</div>
                 <hr className='pb-5'></hr>
                 <div className='place-content-center flex flex-row space-x-10 z-100'>
-                    <ProjectCard project_name={'Mona'} link={"https://github.com/digithed/cascade"} project_description={'A programming language for experimental design'} icon={'wave.png'} />
+                    <ProjectCard project_name={'Mona'} link={""} project_description={'A programming language for experimental design'} icon={'wave.png'} />
                     <ProjectCard project_name={'BLAST'} link={""} project_description={'A BLAST software as a service (SaaS) tool'} icon={'dna.png'} />
-                    <ProjectCard project_name={'TBD'} link={""} project_description={'TBD'} icon={'dna.png'} />
+                    <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={'dna.png'} />
                 </div>
             </div>
             <div className='absolute top-10 z-0'>

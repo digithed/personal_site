@@ -1,57 +1,27 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { FiMail } from "react-icons/fi";
-import FoxOne from './components/FoxOne';
-import Robot from './components/Robot';
 
 function App() {
 
   return (
     <div className='background-image-home'>
       <NavBar />
-      {/* <div className='absolute z-0 top-20 left-0 z-0'>
-        <Hill />
-      </div>
-      <div className='absolute z-0 top-20 mt-20 left-0 z-0'>
-        <Hill />
-      </div>
-      <div className='absolute z-0 top-20 mt-40 left-0 z-0'>
-        <Hill />
-      </div>
-      <div className='absolute z-0 top-20 mt-60 left-0 z-0'>
-        <Hill />
-      </div>
-      <div className='absolute z-0 top-20 mt-80 left-0 z-0'>
-        <Hill />
-      </div>
-      <div style={{'marginTop': '400px'}} className='absolute z-0 top-20 left-0 z-0'>
-        <Hill />
-      </div> */}
+    
       <div className='pt-10 container mx-auto'>
-        {/* <div className='absolute z-0 left-0 top-20 pr-20'>
-          <Hill />
-          </div>
-          <div className='mt-20'>
-          <Forest />
-          </div>
-          <div className='mt-10 mr-10'>
-          <Forest />
-          </div>
-          <div className='mt-20 mr-10'>
-          <Forest />
-          </div> */}
-
+    
         <div className='relative mt-10 place-content-center flex'>
 
           <div className='mb-20 p-10 relative z-101'>
 
-            <div style={{ 'width': '800px', 'height': '500px' }} className='relative card-background text-title rounded-xl shadow-slate-200 shadow-lg p-5'>
+            <div style={{ 'width': '640px', 'height': '490px' }} className='relative card-background text-title rounded-xl shadow-slate-200 shadow-lg p-5'>
+            <div style={{ 'width': '600px', 'height': '450px' }} className='relative card-background-inner text-title rounded-xl shadow-lg p-5'>
               <div>
                 <div className='absolute bottom-0 left-0 mb-10'>
-                  <FoxOne />
+                  {/* <FoxOne /> */}
                 </div>
                 <div className='absolute bottom-10 right-0 z-0'>
-                  <Robot eye1={'eye1'} eye2={'eye2'} sensor={"sensor"} />
+                  {/* <Robot eye1={'eye1'} eye2={'eye2'} sensor={"sensor"} /> */}
                 </div>
                 <img alt="me" style={{ 'width': '180px', 'height': '150px' }} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
               </div>
@@ -75,6 +45,7 @@ function App() {
                 </a>
               </div>
             </div>
+          </div>
           </div>
         </div>
 
