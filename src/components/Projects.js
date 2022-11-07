@@ -12,8 +12,8 @@ function Projects() {
                 <div className='pb-1 pl-5 text-2xl font-bold'>Projects</div>
                 <hr className='pb-5'></hr>
                 <div className='place-content-center flex flex-row space-x-10 z-100'>
-                    <ProjectCard project_name={'Mona'} link={""} project_description={'A programming language for experimental design'} icon={'wave.png'} />
-                    <ProjectCard project_name={'BLAST'} link={""} project_description={'A BLAST software as a service (SaaS) tool'} icon={'dna.png'} />
+                    <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={'wave.png'} />
+                    <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={'dna.png'} />
                     <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={'dna.png'} />
                 </div>
             </div>
