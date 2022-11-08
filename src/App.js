@@ -1,9 +1,9 @@
 import './App.css';
 import NavBar from './components/NavBar';
 import { FiMail } from "react-icons/fi";
+import {Toggle} from "@ninjha01/nitro-ui"
 
 function App() {
-
   return (
     <div className='background-image-home'>
       <NavBar />
@@ -13,7 +13,7 @@ function App() {
         <div className='relative mt-10 place-content-center flex'>
 
           <div className='mb-20 p-10 relative z-101'>
-
+          {<Toggle checked={false} />}
             <div style={{ 'width': '600px', 'height': '450px' }} className='relative card-background-inner text-title rounded-xl shadow-lg p-5'>
               <div>
                 <img alt="me" style={{ 'width': '180px', 'height': '150px' }} className='relative ml-auto mr-auto picture-fade rounded-xl shadow-xl' src='me.png'></img>
