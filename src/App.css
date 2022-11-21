@@ -137,17 +137,6 @@
   animation: loop 10s infinite;
 }
 
-
-/* #Frame1
-#triangle2 {
-  animation: loop2 3s infinite;
-
-}
-#triangle3 {
-  animation: loop 3s infinite;
-
-} */
-
 @keyframes slidein {
   from {
     opacity: 0;
@@ -325,17 +314,17 @@
 
 .background-image-home {
   background-image: url('../public/new-bg.png');
-  height: 100vh;
+  height: 100%;
 }
 
 .background-image-about {
   background-image: url('../public/beach.png');
-  height: 110vh;
+  height: 100%;
 }
 
 .background-image-projects {
   background-image: url('../public/ocean.png');
-  height: 100vh;
+  height: 100%;
 }
 
 

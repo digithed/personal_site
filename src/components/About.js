@@ -16,7 +16,7 @@ function About() {
                     <div className="p-5 place-content-center">
                       
                         <div className="pl-5">
-                            <img style={{ 'height': '500px' }} className='ml-60 rounded-xl' alt='me' src='me_2.jpg' />
+                            <img style={{ 'height': '500px' }} className='ml-20 rounded-xl' alt='me' src='me_2.jpg' />
                         </div>
                    
                     </div>
