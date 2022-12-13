@@ -20,9 +20,9 @@ function App() {
               </div>
               <div className='text-center'>
                 <h1 className='pl-5 text-title font-mono pt-10 text-4xl font-bold'>Nick Rosenau</h1>
-                <h3 className='pl-5 text-subtitle font-mono pt-5 text-lg font-bold'>Software engineer and entrepreneur</h3>
+                <h3 className='pl-5 text-subtitle font-mono pt-5 text-lg font-bold'>Software Engineer</h3>
 
-                <h3 className='pl-5 text-subtitle font-mono pt-5 text-sm font-bold'>Intrested in the intersection of biology and computation</h3>
+                <h3 className='pl-5 text-subtitle font-mono pt-5 text-sm font-bold'>Working in the intersection of biology and computation</h3>
               <br></br>
               </div>
               <div className='flex flex-row place-content-center pt-3 space-x-4'>
