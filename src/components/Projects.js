@@ -2,9 +2,10 @@ import Robot from "./Robot"
 import FoxTwo from "./FoxTwo"
 import NavBar from "./NavBar"
 import ProjectCard from "./ProjectCard"
+import { FiActivity, FiCheckSquare } from "react-icons/fi";
 function Projects() {
     return (
-        <div className="font-mono z-10 bg-teal-400 h-screen">
+        <div style={{"height": "100%"}} className="font-mono z-10 bg-teal-400">
 
             <NavBar />
 
@@ -18,10 +19,11 @@ function Projects() {
                     <h2>"If you ever feel overwhelmed, take on another project."</h2>
                     <i>- Roy Halston Frowick</i>
                     </div>
-                <div className='place-content-center flex flex-row space-x-10 z-100'>
-                    <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={'wave.png'} />
-                    <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={'dna.png'} />
-                    <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={'dna.png'} />
+                <div className='ml-40 mr-40 grid grid-cols-3 gap-x-5 gap-y-5 z-100'>
+                    <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Working on a programming language that creates experimental designs'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
+                    <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
+                    <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
+                    <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                 </div>
             </div>
             <div className='absolute top-20 z-0'>
