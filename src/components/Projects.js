@@ -20,7 +20,7 @@ function Projects() {
                     <i>- Roy Halston Frowick</i>
                     </div>
                 <div className='ml-40 mr-40 grid grid-cols-3 gap-x-5 gap-y-5 z-100'>
-                    <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Working on a programming language that creates experimental designs'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
+                    <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Created a K-Means clustering algorithm to use multithreading in Rust-Wasm'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
                     <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                     <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                     <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
