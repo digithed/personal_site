@@ -89,16 +89,16 @@ function App() {
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
                   <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <h2 className='text-2xl mb-2'>Current base: New York City</h2>
-                  <h2 className='text-2xl mb-2'>Current company: Lattice Automation</h2>
-                  <h2 className='text-2xl mb-2'>Specialty: Full-stack</h2>
-                  <h2 className='text-2xl mb-2'>Education:</h2>
+                  <h2 className='text-2xl mb-2 text-blue-300'>Current base: <span className="text-orange-300">New York City</span></h2>
+                  <h2 className='text-2xl mb-2 text-blue-300'>Current company: <span className="text-orange-300">Lattice Automation</span></h2>
+                  <h2 className='text-2xl mb-2 text-blue-300'>Specialty: <span className="text-orange-300">Full-stack</span></h2>
+                  <h2 className='text-2xl mb-2 text-blue-300'>Education:</h2>
                   <ol>
-                    <li>
-                      B.S. in Neuroscience - Emmanuel College
+                    <li className='text-blue-300'>
+                      B.S. in Neuroscience <span className="text-orange-300">- Emmanuel College</span>
                     </li>
-                    <li>
-                      Graduate Certificate in Computer Science - Northeastern University
+                    <li className='text-blue-300'>
+                      Graduate Certificate in Computer Science <span className="text-orange-300">- Northeastern University</span>
                     </li>
                   </ol>
                   <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 sepia hover:sepia-0 mt-20 border-4 border-blue-300' src='me.png' alt="me" />
@@ -186,17 +186,17 @@ function App() {
                   <div style={{ width: "40vw", height: "1px" }} className='border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
-                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-blue-300" type="text" name="from_name" />
+                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300" type="text" name="from_name" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
-                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-blue-300" type="email" name="from_email" />
+                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300" type="email" name="from_email" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
-                    <select name="topic" style={{ width: "25%" }} className=" border border-gray-300 text-sm text-blue-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
+                    <select name="topic" style={{ width: "25%" }} className=" border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
                       <option value="Frontend freelancing">Frontend freelancing</option>
                       <option value="Backend freelancing">Backend freelancing</option>
                       <option value="Full-stack freelancing">Full-stack freelancing</option>
                       <option value="Other">Other</option>
                     </select>
-                    <textarea name="message" placeholder="Enter a note" style={{ width: "50%", height: "100px" }} className="p-3 rounded-xl mb-5 bg-slate-700 text-blue-300" />
+                    <textarea name="message" placeholder="Enter a note" style={{ width: "50%", height: "100px" }} className="p-3 rounded-xl mb-5 bg-slate-700 text-orange-300" />
                     <br></br>
                     {name === "" || email === "" ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-slate-400 rounded-xl text-slate-200 opacity-50" type="button" disabled>Submit</button>
                       : <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white" type="submit">Submit</button>}
