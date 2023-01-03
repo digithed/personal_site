@@ -373,5 +373,9 @@
 
 }
 
+::placeholder { /* Most modern browsers support this now. */
+  color:    lightblue !important;
+}
+
 
 

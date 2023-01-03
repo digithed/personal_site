@@ -43,7 +43,7 @@ function App() {
 
   useEffect(() => {
     async function animatestuff() {
-      await sleep(3000)
+      await sleep(2000)
       setLoading(false)
     }
     animatestuff()
@@ -78,7 +78,7 @@ function App() {
             </div>
             <h2 className="text-9xl text-blue-300 pt-20 pl-10 text-title">Nick Rosenau</h2>
             <h2 className="text-7xl text-blue-100 mt-5 mb-20 pl-10 text-subtitle">Software Engineer</h2>
-            <div className="pl-10" style={{ width: "55%" }}>
+            <div className="pl-10 text-subtitle" style={{ width: "55%" }}>
               <h2 className='text-blue-300 mb-2 pl-2'>"Life can only be understood backwards, but it must be lived forwards."</h2>
               <i className='text-blue-100 pl-2'>- Søren Kierkegaard</i>
             </div>
@@ -116,9 +116,9 @@ function App() {
                   <div style={{ width: "100%", height: "1px" }} className='border-t border-blue-100 mb-10' />
                   <div style={{ width: "300px", height: "200px" }} className="flex flex-row space-x-4 mt-5">
                     <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Created a K-Means clustering algorithm to use multithreading in Rust-Wasm'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
+                    <ProjectCard project_name={'Nitro UI'} link={"https://storybook.nitro.bio/?path=/story/ariadne-ariadne--kitchen-sink-viewer-story"} project_description={'Contributing to a UI library targeting the life sciences'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                     <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
-                    <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
-                    <ProjectCard project_name={'Component Library'} link={""} project_description={'Creating a component library for React'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
+                    {/* <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} /> */}
                   </div>
                 </div>
               </FadeInSection>
@@ -185,18 +185,18 @@ function App() {
                   <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate! :)</h2>
                   <div style={{ width: "40vw", height: "1px" }} className='border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Name</label>
-                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-blue-100" type="text" name="from_name" />
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Email</label>
-                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-blue-100" type="email" name="from_email" />
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Select a topic</label>
-                    <select name="topic" style={{ width: "25%" }} className="bg-blue-100 border border-gray-300 text-sm text-slate-700 rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
+                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-blue-300" type="text" name="from_name" />
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
+                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-blue-300" type="email" name="from_email" />
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
+                    <select name="topic" style={{ width: "25%" }} className=" border border-gray-300 text-sm text-blue-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
                       <option value="Frontend freelancing">Frontend freelancing</option>
                       <option value="Backend freelancing">Backend freelancing</option>
                       <option value="Full-stack freelancing">Full-stack freelancing</option>
                       <option value="Other">Other</option>
                     </select>
-                    <textarea name="message" placeholder="Enter a note" style={{ width: "50%", height: "100px" }} className="p-3 rounded-xl mb-5 bg-blue-100 " />
+                    <textarea name="message" placeholder="Enter a note" style={{ width: "50%", height: "100px" }} className="p-3 rounded-xl mb-5 bg-slate-700 text-blue-300" />
                     <br></br>
                     {name === "" || email === "" ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-slate-400 rounded-xl text-slate-200 opacity-50" type="button" disabled>Submit</button>
                       : <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white" type="submit">Submit</button>}
