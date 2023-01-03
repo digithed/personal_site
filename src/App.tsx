@@ -90,10 +90,15 @@ function App() {
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
                   <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
+                  <div className="flex flex-row">
+                  <div>
                   <h2 className='text-2xl mb-2 text-blue-300'>Current base: <span className="text-orange-300">New York City</span></h2>
                   <h2 className='text-2xl mb-2 text-blue-300'>Current company: <span className="text-orange-300">Lattice Automation</span></h2>
                   <h2 className='text-2xl mb-2 text-blue-300'>Specialty: <span className="text-orange-300">Full-stack</span></h2>
                   <h2 className='text-2xl mb-2 text-blue-300'>Education:</h2>
+                  </div>
+                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl border-4 border-blue-300 ml-40' src='me.png' alt="me" />
+                  </div>
                   <ol>
                     <li className='text-blue-300'>
                       B.S. in Neuroscience <span className="text-orange-300">- Emmanuel College</span>
@@ -102,9 +107,8 @@ function App() {
                       Graduate Certificate in Computer Science <span className="text-orange-300">- Northeastern University</span>
                     </li>
                   </ol>
-                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 mt-20 border-4 border-blue-300' src='me.png' alt="me" />
                   <a href='nicholas_rosenau_resume.pdf' download>
-                    <div style={{ width: "15%" }} className='rounded-xl p-3 bg-slate-200 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
+                    <div style={{ width: "170px" }} className='rounded-xl p-3 bg-slate-200 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
                       <p className="mt-1">Download Resume</p>
                       <FiDownload className="mt-1" size={'1.25em'} />
                     </div>
