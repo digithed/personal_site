@@ -19,7 +19,7 @@ function About() {
                     <div style={{"width": '450px','height': '200px' }} className="absolute ml-40 mt-5 z-20">
                         <img  className='rounded-xl' alt='me' src='me_2.jpg' />
                     </div>
-                    <div style={{"width": "250px", "height": "250px", "marginRight": "350px"}} className="rounded-xl shadow-xl bg-white absolute right-0 bottom-0 mb-10 z-10"></div>
+                    <div style={{"width": "250px", "height": "250px", "marginRight": "400px"}} className="rounded-xl shadow-xl bg-white absolute right-0 bottom-0 mb-10 z-10"></div>
                     <div style={{"width": "250px", "height": "250px"}} className="rounded-xl shadow-xl bg-blue-300 absolute left-0 bottom-0 ml-10 z-5"></div>
                     <div style={{"width": "250px", "height": "250px"}} className="rounded-xl shadow-xl bg-orange-300 absolute left-0 bottom-0 mb-20 ml-20 z-5"></div>
                     <div style={{"width": "250px", "height": "250px", "marginTop": "280px"}} className="rounded-xl shadow-xl bg-green-300 absolute ml-40 top-0 z-2"></div>
