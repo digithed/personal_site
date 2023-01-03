@@ -49,11 +49,12 @@ function App() {
     animatestuff()
   }, [])
 
+
   return (
     <>
-      {loading ? <div style={{ width: "100%", height: "100vh" }} className='bg-slate-800 pt-20'><FaRegSmileBeam style={{ width: "300px", height: "300px" }} className="text-orange-300 animate-pulse mx-auto pt-60" /></div>
+      {loading ? <div className='bg-slate-800 pt-20 w-full h-screen'><FaRegSmileBeam style={{ width: "300px", height: "300px" }} className="text-orange-300 animate-pulse mx-auto pt-60" /></div>
         :
-        <div style={{ width: "100%" }} className='bg-slate-800'>
+        <div className='bg-slate-800 w-full'>
           <div className='flex flex-col pt-5 space-y-4 fixed z-10 ml-2'>
             <div style={{ height: "40vh" }} className='ml-3 border-l-2 border-blue-300'>
             </div>
