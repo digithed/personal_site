@@ -367,5 +367,11 @@
   color: aquamarine;
 }
 
+.quickfadein {
+
+  -webkit-animation:  0.3s ease 0s normal forwards 1 fadein;
+
+}
+
 
 
