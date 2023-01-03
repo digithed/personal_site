@@ -1,5 +1,4 @@
 import './App.css';
-import NavBar from './components/NavBar';
 import { FiActivity, FiCheckSquare, FiDownload, FiMail } from "react-icons/fi";
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 import { FadeInSection } from './components/FadeInSection';
@@ -32,7 +31,6 @@ function App() {
     <div style={{ width: "100%" }} className='bg-slate-800'>
       <div className='flex flex-col pt-5 space-y-4 fixed z-10 text-blue-300 ml-2'>
         <div style={{ height: "40vh" }} className='ml-3 border-l-2'>
-          <h2></h2>
         </div>
         <a href='https://github.com/digithed'><AiFillGithub className='hover:scale-125' style={{ width: "30px", height: "30px" }} /></a>
         <a href='https://www.linkedin.com/in/nick-rosenau-2b0614b3/'><AiFillLinkedin className='hover:scale-125' style={{ width: "30px", height: "30px" }} /></a>
@@ -46,7 +44,6 @@ function App() {
         </a>
 
         <div style={{ height: "100vh" }} className='ml-3 border-l-2 border-blue-300'>
-          <h2></h2>
         </div>
       </div>
 
@@ -71,7 +68,7 @@ function App() {
                   Graduate Certificate in Computer Science - Northeastern University
                 </li>
               </ol>
-              <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 sepia hover:sepia-0 mt-10' src='me.png' />
+              <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 sepia hover:sepia-0 mt-10' src='me.png' alt="me" />
               <a href='nicholas_rosenau_resume.pdf' download>
                   <div style={{width: "15%"}} className='rounded-xl p-3 bg-slate-200 hover:scale-110 text-black text-sm flex flex-row space-x-2 mt-5'>
                     <p className="mt-1">Download Resume</p>
