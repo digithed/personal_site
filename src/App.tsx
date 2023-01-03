@@ -101,7 +101,7 @@ function App() {
                       Graduate Certificate in Computer Science <span className="text-orange-300">- Northeastern University</span>
                     </li>
                   </ol>
-                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 sepia hover:sepia-0 mt-20 border-4 border-blue-300' src='me.png' alt="me" />
+                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl float-right absolute top-20 right-80 mt-20 border-4 border-blue-300' src='me.png' alt="me" />
                   <a href='nicholas_rosenau_resume.pdf' download>
                     <div style={{ width: "15%" }} className='rounded-xl p-3 bg-slate-200 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
                       <p className="mt-1">Download Resume</p>
@@ -111,7 +111,7 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div style={{ width: "50%", height: "80vh" }} className='box'>
+                <div style={{ width: "70%", height: "80vh" }} className='box'>
                   <h2 className='text-5xl mb-3 font-medium text-blue-300'>Projects</h2>
                   <div style={{ width: "100%", height: "1px" }} className='border-t border-blue-100 mb-10' />
                   <div style={{ width: "300px", height: "200px" }} className="flex flex-row space-x-4 mt-5">
