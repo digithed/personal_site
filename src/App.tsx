@@ -66,9 +66,7 @@ function App() {
                 <span className="relative inline-flex rounded-full h-3 w-3 bg-orange-400"></span>
               </span>
               <FiMail className='shadow-xl hover:scale-125 text-orange-300' size={'1.85em'} />
-
             </a>
-
             <div style={{ height: "100vh" }} className='ml-3 border-l-2 border-orange-300'>
             </div>
           </div>
@@ -79,40 +77,57 @@ function App() {
             </div>
             <h2 className="text-9xl text-blue-300 pt-20 pl-10 text-title">Nick Rosenau</h2>
             <h2 className="text-7xl text-blue-100 mt-5 mb-20 pl-10 text-subtitle">Software Engineer</h2>
+            <div className='flex flex-row'>
             <div className="pl-10 text-subtitle" style={{ width: "55%" }}>
               <h2 className='text-blue-300 mb-2 pl-2'>"Life can only be understood backwards, but it must be lived forwards."</h2>
               <i className='text-blue-100 pl-2'>- Søren Kierkegaard</i>
             </div>
+            {/* <div style={{width: "400px", height: "200px"}} className='bg-orange-300 hover:scale-125 hover:shadow-xl ml-20 rounded-xl border-2 border-slate-400 shadow-lg shadow-blue-300'>
+              <h2 className="text-3xl p-2 text-center font-mono">Bulletin</h2>
+              <ul className="list-disc pl-5">
+              <li className="text-md p-2 font-mono animate-pulse">Happy New Year!</li>
+              </ul>
+            </div> */}
+            </div>
             <div className='picture-fade'>
               <FadeInSection>
-                <div style={{ width: "100%", height: "70vh" }} className='box font-light text-white'>
+                <div style={{ width: "100%", height: "80vh" }} className='box font-light text-white'>
                   <div className='flex flex-row space-x-2'>
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
                   <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div className="flex flex-row">
-                  <div>
-                  <h2 className='text-2xl mb-2 text-blue-300'>Current base: <span className="text-orange-300">New York City</span></h2>
-                  <h2 className='text-2xl mb-2 text-blue-300'>Current company: <span className="text-orange-300">Lattice Automation</span></h2>
-                  <h2 className='text-2xl mb-2 text-blue-300'>Specialty: <span className="text-orange-300">Full-stack</span></h2>
-                  <h2 className='text-2xl mb-2 text-blue-300'>Education:</h2>
-                  </div>
-                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl shadow-xl border-4 border-blue-300 ml-40' src='me.png' alt="me" />
-                  </div>
+                  <div className="flex flex-row mb-5">
+                  <ul className='border p-3 pl-7 rounded-xl list-disc border-blue-300 shadow-lg shadow-blue-300'>
+                  <li className='text-2xl mb-2 text-blue-300 mt-7'>Current base: <span className="text-orange-300">New York City</span></li>
+                  <li className='text-2xl mb-2 text-blue-300'>Current company: <span className="text-orange-300">Lattice Automation</span></li>
+                  <li className='text-2xl mb-2 text-blue-300'>Specialty: <span className="text-orange-300">Full-stack</span></li>
+                  <li className='text-2xl mb-2 text-blue-300'>Education:
                   <ol>
-                    <li className='text-blue-300'>
+                    <li className='text-blue-300 text-sm'>
                       B.S. in Neuroscience <span className="text-orange-300">- Emmanuel College</span>
                     </li>
-                    <li className='text-blue-300'>
+                    <li className='text-blue-300 text-sm'>
                       Graduate Certificate in Computer Science <span className="text-orange-300">- Northeastern University</span>
                     </li>
                   </ol>
                   <a href='nicholas_rosenau_resume.pdf' download>
-                    <div style={{ width: "170px" }} className='rounded-xl p-3 bg-slate-200 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
-                      <p className="mt-1">Download Resume</p>
-                      <FiDownload className="mt-1" size={'1.25em'} />
+                    <div style={{ width: "180px" }} className='rounded-xl p-3 border border-blue-300 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
+                      <p className="mt-1 text-white font-mono">Download Resume</p>
+                      <FiDownload className="mt-1 text-white" size={'1.25em'} />
                     </div>
                   </a>
+                  </li>
+                  </ul>
+                  <div className=' rounded-xl border border-orange-300 shadow-lg shadow-orange-300'>
+                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl border-2 border-orange-300 shadow-blue-300' src='me.png' alt="me" />
+                  <div style={{marginLeft:"80px", marginTop: "40px"}} className='flex flex-row space-x-3'>
+                    <h2 className='font-mono'>2 YoE</h2>
+                    <FaRegSmileBeam style={{width:"40px", height: "40px"}} className='text-center text-orange-300 pb-3' />
+                  </div>
+                  
+                  </div>
+                  </div>
+                
                 </div>
               </FadeInSection>
               <FadeInSection>
