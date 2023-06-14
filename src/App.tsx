@@ -85,13 +85,13 @@ function App() {
             </div>
             <div className='picture-fade'>
               <FadeInSection>
-                <div className='h-[100vh] md:h-[70vh] box font-light text-white'>
+                <div className='h-[100vh] md:h-[65vh] box font-light text-white'>
                   <div className='flex flex-row space-x-2'>
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <div className="flex flex-col md:flex-row">
-                  <img className='md:mr-5 w-[13.5rem] h-[10.5rem] md:w-[14.5rem] md:h-[11.5rem] rounded-xl border-2 border-blue-300 shadow-blue-300' src='me.png' alt="me" />
+                  <img className='md:mr-5 h-[11.5rem] md:w-[14.5rem] md:h-[11.5rem] rounded-xl border-2 border-blue-300 shadow-blue-300 mb-5' src='me.png' alt="me" />
                   <ul className='md:pr-5 rounded-xl text-center md:text-left'>
                   <li className='text-2xl mb-2 text-blue-100'>Current base: <span className="text-orange-300">New York City</span></li>
                   <li className='text-2xl mb-2 text-blue-100'>Current company: <span className="text-orange-300">Lattice Automation</span></li>
@@ -106,7 +106,7 @@ function App() {
                     </li>
                   </ol>
                   <a href='nicholas_rosenau_resume.pdf' download>
-                    <div style={{ width: "180px" }} className='rounded-xl p-3 bg-slate-600 border border-blue-300 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5'>
+                    <div className='md:w-1/2 rounded-xl p-3 bg-slate-600 border border-blue-300 hover:scale-110 hover:shadow-md hover:shadow-orange-300 text-black text-sm flex flex-row space-x-2 mt-5 justify-center'>
                       <p className="mt-1 text-white font-mono">Download Resume</p>
                       <FiDownload className="mt-1 text-orange-300" size={'1.25em'} />
                     </div>
@@ -118,22 +118,21 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[120vh] md:h-[70vh] box'>
-                  <h2 className='text-5xl mt-8 md:mt-0 mb-3 font-medium text-blue-300'>Projects</h2>
+                <div className='h-[120vh] md:h-[75vh] box'>
+                  <h2 className='text-5xl md:mt-0 mb-3 font-medium text-blue-300'>Projects</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
-                  <div style={{ width: "300px", height: "200px" }} className="flex flex-col space-y-4 md:flex-row md:space-x-4 mt-5">
+                  <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0 mt-5">
                     <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Created a K-Means clustering algorithm to use multithreading in Rust-Wasm'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
                     <ProjectCard project_name={'Nitro UI'} link={"https://storybook.nitro.bio/?path=/story/ariadne-ariadne--kitchen-sink-viewer-story"} project_description={'Contributing to a UI library targeting the life sciences'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                     <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
-                    {/* <ProjectCard project_name={'Crispier and Cas-ier'} link={""} project_description={'Creating a CRISPR web application based on a newly designed Cas protein'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} /> */}
                   </div>
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[150vh] md:h-[70vh] box font-light text-white'>
+                <div className='h-[160vh] md:h-[65vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Programming Languages</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
-                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 mb-40'>
+                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5'>
                     <div onMouseOver={() => setPythonDetails(true)} onMouseOut={() => setPythonDetails(false)}>
                       <FaPython className='hover:scale-125 hover:text-blue-300' style={{ width: "200px", height: "200px" }} />
                       {pythonDetails && <div className='quickfadein'>
@@ -166,10 +165,10 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[110vh] md:h-[70vh] box font-light text-white'>
+                <div className='h-[110vh] md:h-[65vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Frameworks</h2>
-                  <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10'>
+                  <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
+                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5'>
                     <div onMouseOver={() => setReactDetails(true)} onMouseOut={() => setReactDetails(false)}>
                       <FaReact className='hover:scale-125 hover:text-orange-300' style={{ width: "200px", height: "200px" }} />
                       {reactDetails && <div className='quickfadein'>
@@ -189,7 +188,7 @@ function App() {
               </FadeInSection>
               <FadeInSection>
                 <div className='h-[110vh] md:h-[90vh] box'>
-                  <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate! :)</h2>
+                  <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate!</h2>
                   <div className='h-1 border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
@@ -197,7 +196,7 @@ function App() {
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
                     <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="email" name="from_email" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
-                    <select name="topic" className="border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
+                    <select name="topic" className="border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 block focus:border-blue-500 md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 ml-6 md:ml-0">
                       <option value="Frontend freelancing">Frontend freelancing</option>
                       <option value="Backend freelancing">Backend freelancing</option>
                       <option value="Full-stack freelancing">Full-stack freelancing</option>
