@@ -71,33 +71,28 @@ function App() {
             </div>
           </div>
 
-          <div className='ml-20'>
+          <div className='text-center md:text-left ml-10 md:ml-20'>
             <div className='fixed top-20 text-blue-400 opacity-25'>
               <BsCodeSlash style={{ width: "300px", height: "300px" }} />
             </div>
-            <h2 className="text-9xl text-blue-300 pt-20 pl-10 text-title">Nick Rosenau</h2>
-            <h2 className="text-7xl text-blue-100 mt-5 mb-20 pl-10 text-subtitle">Software Engineer</h2>
+            <h2 className="md:text-9xl text-7xl text-blue-300 pt-20 md:pl-10 text-title">Nick Rosenau</h2>
+            <h2 className="md:text-7xl text-5xl text-blue-100 mt-5 mb-20 md:pl-10 text-subtitle">Software Engineer</h2>
             <div className='flex flex-row'>
-            <div className="pl-10 text-subtitle" style={{ width: "55%" }}>
-              <h2 className='text-blue-300 mb-2 pl-2'>"Life can only be understood backwards, but it must be lived forwards."</h2>
+            <div className="md:pl-10 md:w-1/2 text-subtitle">
+              <h2 className='text-blue-300 mb-2 pl-2 p-5'>"Life can only be understood backwards, but it must be lived forwards."</h2>
               <i className='text-blue-100 pl-2'>- Søren Kierkegaard</i>
             </div>
-            {/* <div style={{width: "400px", height: "200px"}} className='bg-orange-300 hover:scale-125 hover:shadow-xl ml-20 rounded-xl border-2 border-slate-400 shadow-lg shadow-blue-300'>
-              <h2 className="text-3xl p-2 text-center font-mono">Bulletin</h2>
-              <ul className="list-disc pl-5">
-              <li className="text-md p-2 font-mono animate-pulse">Happy New Year!</li>
-              </ul>
-            </div> */}
             </div>
             <div className='picture-fade'>
               <FadeInSection>
-                <div style={{ width: "100%", height: "70vh" }} className='box font-light text-white'>
+                <div className='h-[100vh] md:h-[70vh] box font-light text-white'>
                   <div className='flex flex-row space-x-2'>
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
-                  <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div className="flex flex-row mb-5">
-                  <ul className='pr-5 rounded-xl'>
+                  <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
+                  <div className="flex flex-col md:flex-row">
+                  <img className='md:mr-5 w-[13.5rem] h-[10.5rem] md:w-[14.5rem] md:h-[11.5rem] rounded-xl border-2 border-blue-300 shadow-blue-300' src='me.png' alt="me" />
+                  <ul className='md:pr-5 rounded-xl text-center md:text-left'>
                   <li className='text-2xl mb-2 text-blue-100'>Current base: <span className="text-orange-300">New York City</span></li>
                   <li className='text-2xl mb-2 text-blue-100'>Current company: <span className="text-orange-300">Lattice Automation</span></li>
                   <li className='text-2xl mb-2 text-blue-100'>Specialty: <span className="text-orange-300">Full-stack</span></li>
@@ -118,23 +113,15 @@ function App() {
                   </a>
                   </li>
                   </ul>
-                  <div className=' rounded-xl'>
-                  <img style={{ width: "250px", height: "200px" }} className='rounded-xl border-2 border-blue-300 shadow-blue-300 ml-3' src='me.png' alt="me" />
-                  {/* <div style={{marginLeft:"10px", marginTop: "40px"}} className='flex flex-row space-x-3'>
-                    <h2 className='font-mono'>Years of experience: 2</h2>
-                    <FaRegSmileBeam style={{width:"40px", height: "40px"}} className='text-center text-blue-300 pb-3' />
-                  </div> */}
-                  
-                  </div>
                   </div>
                 
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div style={{ width: "70%", height: "80vh" }} className='box'>
-                  <h2 className='text-5xl mb-3 font-medium text-blue-300'>Projects</h2>
-                  <div style={{ width: "100%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div style={{ width: "300px", height: "200px" }} className="flex flex-row space-x-4 mt-5">
+                <div className='h-[120vh] md:h-[70vh] box'>
+                  <h2 className='text-5xl mt-8 md:mt-0 mb-3 font-medium text-blue-300'>Projects</h2>
+                  <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
+                  <div style={{ width: "300px", height: "200px" }} className="flex flex-col space-y-4 md:flex-row md:space-x-4 mt-5">
                     <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Created a K-Means clustering algorithm to use multithreading in Rust-Wasm'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
                     <ProjectCard project_name={'Nitro UI'} link={"https://storybook.nitro.bio/?path=/story/ariadne-ariadne--kitchen-sink-viewer-story"} project_description={'Contributing to a UI library targeting the life sciences'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
                     <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
@@ -143,10 +130,10 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div style={{ width: "100%", height: "70vh" }} className='box font-light text-white'>
+                <div className='h-[150vh] md:h-[70vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Programming Languages</h2>
-                  <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div className='flex flex-row space-x-10 mb-40'>
+                  <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
+                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 mb-40'>
                     <div onMouseOver={() => setPythonDetails(true)} onMouseOut={() => setPythonDetails(false)}>
                       <FaPython className='hover:scale-125 hover:text-blue-300' style={{ width: "200px", height: "200px" }} />
                       {pythonDetails && <div className='quickfadein'>
@@ -179,44 +166,44 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div style={{ width: "100%", height: "70vh" }} className='box font-light text-white'>
+                <div className='h-[110vh] md:h-[70vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Frameworks</h2>
                   <div style={{ width: "50%", height: "1px" }} className='border-t border-blue-100 mb-10' />
-                  <div className='flex flex-row space-x-10'>
+                  <div className='flex flex-col space-y-10 md:flex-row md:space-x-10'>
                     <div onMouseOver={() => setReactDetails(true)} onMouseOut={() => setReactDetails(false)}>
                       <FaReact className='hover:scale-125 hover:text-orange-300' style={{ width: "200px", height: "200px" }} />
                       {reactDetails && <div className='quickfadein'>
-                        <h2 className='text-2xl ml-10 mt-10'>React</h2>
-                        <h3 className='text-xl ml-10 text-green-300'>Fluent</h3>
+                        <h2 className='text-2xl md:ml-10 mt-10'>React</h2>
+                        <h3 className='text-xl md:ml-10 text-green-300'>Fluent</h3>
                       </div>}
                     </div>
                     <div onMouseOver={() => setFlaskDetails(true)} onMouseOut={() => setFlaskDetails(false)}>
                       <SiFlask className='hover:scale-125 hover:text-orange-300' style={{ width: "200px", height: "200px" }} />
                       {flaskDetails && <div className='quickfadein'>
-                        <h2 className='text-2xl ml-10 mt-10'>Flask</h2>
-                        <h3 className='text-xl ml-10 text-green-300'>Fluent</h3>
+                        <h2 className='text-2xl md:ml-10 mt-10'>Flask</h2>
+                        <h3 className='text-xl md:ml-10 text-green-300'>Fluent</h3>
                       </div>}
                     </div>
                   </div>
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div style={{ width: "100%", height: "90vh" }} className='box'>
+                <div className='h-[110vh] md:h-[90vh] box'>
                   <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate! :)</h2>
-                  <div style={{ width: "40vw", height: "1px" }} className='border-t border-blue-100 mb-10' />
+                  <div className='h-1 border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
-                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300" type="text" name="from_name" />
+                    <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="text" name="from_name" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
-                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" style={{ width: "25%" }} className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300" type="email" name="from_email" />
+                    <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="email" name="from_email" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
-                    <select name="topic" style={{ width: "25%" }} className=" border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
+                    <select name="topic" className="border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 focus:border-blue-500 block md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5">
                       <option value="Frontend freelancing">Frontend freelancing</option>
                       <option value="Backend freelancing">Backend freelancing</option>
                       <option value="Full-stack freelancing">Full-stack freelancing</option>
                       <option value="Other">Other</option>
                     </select>
-                    <textarea name="message" placeholder="Enter a note" style={{ width: "50%", height: "100px" }} className="p-3 rounded-xl mb-5 bg-slate-700 text-orange-300" />
+                    <textarea name="message" placeholder="Enter a note" className="p-3 h-[10rem] rounded-xl mb-5 bg-slate-700 text-orange-300 md:w-1/3" />
                     <br></br>
                     {name === "" || email === "" ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-slate-400 rounded-xl text-slate-200 opacity-50" type="button" disabled>Submit</button>
                       : <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white" type="submit">Submit</button>}
