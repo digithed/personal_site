@@ -85,13 +85,13 @@ function App() {
             </div>
             <div className='picture-fade'>
               <FadeInSection>
-                <div className='h-[100vh] md:h-[65vh] box font-light text-white'>
+                <div className='h-[110vh] md:h-[65vh] box font-light text-white'>
                   <div className='flex flex-row space-x-2'>
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
-                  <div className="flex flex-col md:flex-row">
-                  <img className='md:mr-5 h-[11.5rem] md:w-[14.5rem] md:h-[11.5rem] rounded-xl border-2 border-blue-300 shadow-blue-300 mb-5' src='me.png' alt="me" />
+                  <div className="flex flex-col md:flex-row items-center">
+                  <img className='md:mr-5 w-[11.5rem] h-[9.5rem] md:w-[14.5rem] md:h-[11.5rem] rounded-xl border-2 border-blue-300 shadow-blue-300 mb-5' src='me.png' alt="me" />
                   <ul className='md:pr-5 rounded-xl text-center md:text-left'>
                   <li className='text-2xl mb-2 text-blue-100'>Current base: <span className="text-orange-300">New York City</span></li>
                   <li className='text-2xl mb-2 text-blue-100'>Current company: <span className="text-orange-300">Lattice Automation</span></li>
@@ -118,7 +118,7 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[120vh] md:h-[75vh] box'>
+                <div className='h-[130vh] md:h-[75vh] box'>
                   <h2 className='text-5xl md:mt-0 mb-3 font-medium text-blue-300'>Projects</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:space-y-0 mt-5">
@@ -189,14 +189,14 @@ function App() {
               <FadeInSection>
                 <div className='h-[110vh] md:h-[90vh] box'>
                   <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate!</h2>
-                  <div className='h-1 border-t border-blue-100 mb-10' />
+                  <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
                     <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="text" name="from_name" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
                     <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="email" name="from_email" />
                     <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
-                    <select name="topic" className="border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 block focus:border-blue-500 md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 ml-6 md:ml-0">
+                    <select name="topic" className="appearance-none border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 block focus:border-blue-500 md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 ml-6 md:ml-0">
                       <option value="Frontend freelancing">Frontend freelancing</option>
                       <option value="Backend freelancing">Backend freelancing</option>
                       <option value="Full-stack freelancing">Full-stack freelancing</option>
