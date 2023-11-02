@@ -14,6 +14,11 @@
   100% { opacity:1; }
 }
 
+.flex-wrap > :not(:first-child) {
+  margin-left: 0;
+}
+
+
 .picture-fade {
   -webkit-animation: 1s ease 0s normal forwards 1 fadein;
 }
@@ -374,6 +379,7 @@
 .quickfadein {
 
   -webkit-animation:  0.3s ease 0s normal forwards 1 fadein;
+  position: absolute;
 
 }
 
@@ -381,6 +387,11 @@
   color:    lightblue !important;
 }
 
+@media (min-width: 768px) { /* This is the default breakpoint for 'md:' in Tailwind */
+  .md-row-gap-120px {
+    row-gap: 120px;
+  }
+}
 
 
 

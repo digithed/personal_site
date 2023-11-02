@@ -94,7 +94,7 @@ function HomePage() {
 
             <div className="picture-fade">
               <FadeInSection>
-                <div className="h-[135vh] md:h-[80vh] box font-light text-white">
+                <div className="h-[135vh] md:h-[110vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="heading text-5xl mb-3 font-medium text-blue-300">
                       My Overview
@@ -171,7 +171,7 @@ function HomePage() {
               </FadeInSection>
 
               <FadeInSection>
-                <div className="h-[125vh] md:h-[65vh] box font-light text-white">
+                <div className="h-[125vh] md:h-[100vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="heading text-5xl mb-3 font-medium text-blue-300">
                       Services
@@ -200,7 +200,7 @@ function HomePage() {
               </FadeInSection>
 
               <FadeInSection>
-                <div className="h-[130vh] md:h-[75vh] box">
+                <div className="h-[130vh] md:h-[100vh] box">
                   <h2 className="text-5xl md:mt-0 mb-3 font-medium text-blue-300">
                     Projects
                   </h2>
@@ -239,18 +239,18 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[200vh] md:h-[65vh] box font-light text-white">
+                <div className="h-[270vh] md:h-[120vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Programming Languages
                   </h2>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <div className="flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5">
+                  <div className=".md-row-gap-120px flex flex-col space-y-40 md:flex-row md:flex-wrap md:gap-10 md:space-x-10 md:space-y-0 ml-5">
                     <div
                       onMouseOver={() => setPythonDetails(true)}
                       onMouseOut={() => setPythonDetails(false)}
                     >
                       <FaPython
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {pythonDetails && (
@@ -267,7 +267,7 @@ function HomePage() {
                       onMouseOut={() => setJsDetails(false)}
                     >
                       <DiJavascript1
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {jsDetails && (
@@ -286,7 +286,7 @@ function HomePage() {
                       onMouseOut={() => setHtmlDetails(false)}
                     >
                       <FaHtml5
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {htmlDetails && (
@@ -303,7 +303,7 @@ function HomePage() {
                       onMouseOut={() => setCDetails(false)}
                     >
                       <FaCuttlefish
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {cDetails && (
@@ -320,7 +320,7 @@ function HomePage() {
                       onMouseOut={() => setRustDetails(false)}
                     >
                       <FaRust
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {rustDetails && (
@@ -337,7 +337,7 @@ function HomePage() {
                       onMouseOut={() => setJavaDetails(false)}
                     >
                       <FaJava
-                        className="hover:scale-125 hover:text-blue-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-blue-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {javaDetails && (
@@ -358,13 +358,13 @@ function HomePage() {
                     Frameworks
                   </h2>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <div className="flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5">
+                  <div className="flex flex-col space-y-20 md:flex-row md:space-x-10 md:space-y-0 ml-5">
                     <div
                       onMouseOver={() => setReactDetails(true)}
                       onMouseOut={() => setReactDetails(false)}
                     >
                       <FaReact
-                        className="hover:scale-125 hover:text-orange-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-orange-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {reactDetails && (
@@ -383,7 +383,7 @@ function HomePage() {
                       onMouseOut={() => setFlaskDetails(false)}
                     >
                       <SiFlask
-                        className="hover:scale-125 hover:text-orange-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-orange-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {flaskDetails && (
@@ -410,7 +410,7 @@ function HomePage() {
                       onMouseOut={() => setAWSDetails(false)}
                     >
                       <FaAws
-                        className="hover:scale-125 hover:text-purple-300"
+                        className="transition-transform duration-300 transform hover:scale-110 hover:text-purple-300"
                         style={{ width: "200px", height: "200px" }}
                       />
                       {AWSDetails && (
