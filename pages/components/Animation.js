@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './IconMove.css';  // CSS file (create this)
 
 export const Animation = (props) => {
     const [iconMoved, setIconMoved] = useState(false);
@@ -24,7 +23,7 @@ export const Animation = (props) => {
         <div className={`icon ${iconMoved ? 'move' : ''}`}>
           {props.icon}
         </div>
-        <div className={`text-white text ${textVisible ? 'show' : ''}`}>
+        <div className={`text-white text show`}>
           {props.text}
         </div>
       </div>
