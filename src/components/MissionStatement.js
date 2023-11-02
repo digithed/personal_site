@@ -2,7 +2,7 @@ import { FiMail } from "react-icons/fi";
 export const MissionStatement = () => {
     return(
         <>
-         <h2 className='heading text-xl mb-3 font-medium text-white'>
+         <h2 className='heading md:text-body text-xl mb-3 font-medium text-white'>
               I began my career working in a molecular biology lab. I didn't, and still don't, have a degree in Computer Science. Through a desire to learn I taught myself several programming languages such as
               Python, Javascript, and HTML. I began writing small scripts to help with work. I eventually took a few college CS courses, and finally got a job as a Junior Software Engineer. That was three years ago and I've learned a lot since then.
               <br></br>
@@ -20,7 +20,7 @@ export const MissionStatement = () => {
               If interested, please email me by clicking on the orange mail icon to the left that looks like this: 
               <br></br>
               <br></br>
-              {<FiMail className='shadow-xl text-orange-300' size={'1.85em'} />}
+              {<FiMail className='md:ml-0 ml-5 shadow-xl text-orange-300' size={'1.85em'} />}
               <br></br>
               Thanks for reading, and I hope you enjoy the rest of my site!
               </h2>

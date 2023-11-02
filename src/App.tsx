@@ -84,8 +84,8 @@ function App() {
             <h2 className="md:text-9xl text-7xl text-blue-300 pt-20 md:pl-10 text-title">Nick Rosenau</h2>
             <h2 className="md:text-7xl text-5xl text-blue-100 mt-5 mb-20 md:pl-10 text-subtitle">Software Engineer</h2>
             <div className='flex flex-col'>
-              <h1 className='ml-10 heading text-5xl mb-3 font-medium text-blue-300 text-subtitle'>Mission Statement</h1>
-              <div className='ml-10 w-1/2'>
+              <h1 className='md:ml-10 heading text-5xl mb-3 font-medium text-blue-300 text-subtitle'>Mission Statement</h1>
+              <div className='md:ml-10 p-5 md:w-1/2'>
               <h2 className='heading text-xl mb-3 font-medium text-white text-subtitle'>Welcome. If you've ever wanted to program or be a Software Engineer but doubted your abilities, keep reading...</h2>
               <br></br>
               {!showMission ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white mb-10 text-subtitle" onClick={() => setShowMission(true)}>See More</button>
@@ -99,7 +99,7 @@ function App() {
             </div>
             <div className='picture-fade'>
               <FadeInSection>
-                <div className='h-[110vh] md:h-[75vh] box font-light text-white'>
+                <div className='h-[135vh] md:h-[75vh] box font-light text-white'>
                   <div className='flex flex-row space-x-2'>
                     <h2 className='heading text-5xl mb-3 font-medium text-blue-300'>My Overview</h2>
                   </div>
@@ -128,7 +128,7 @@ function App() {
                   </li>
                   </ul>
                   </div>
-                  <h2 className='text-2xl mb-3 mt-3 font-medium text-blue-300'>Key Takeaways</h2>
+                  <h2 className='text-2xl mb-3 mt-10 font-medium text-blue-300'>Key Takeaways</h2>
                   <Animation icon={<FaCog/>} text={"3 Years working as a full-stack engineer"} />
                   <Animation icon={<FaCrosshairs/>} text={"Fluent in 3 programming languages"} />
                   <Animation icon={<FaCrown/>} text={"2nd place in biotech hackathon; held in Boston"} />
@@ -144,12 +144,11 @@ function App() {
                     <ProjectCard project_name={'Traverse Company Website'} link={"https://www.travelwithtraverse.com"} project_description={'Created a professional website for an Airbnb management company using Next.js'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
                     <ProjectCard project_name={'Rust-Wasm Clustering'} link={"https://mlwasm.vercel.app/"} project_description={'Created a K-Means clustering algorithm to use multithreading in Rust-Wasm'} icon={<FiCheckSquare size={20} />} iconLabel={"Complete"} />
                     <ProjectCard project_name={'Nitro UI'} link={"https://storybook.nitro.bio/?path=/story/ariadne-ariadne--kitchen-sink-viewer-story"} project_description={'Contributing to a UI library targeting the life sciences'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} />
-                    {/* <ProjectCard project_name={'Mona'} link={""} project_description={'Working on a programming language that creates experimental designs'} icon={<FiActivity size={20} />} iconLabel={"In Progress"} /> */}
                   </div>
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[160vh] md:h-[65vh] box font-light text-white'>
+                <div className='h-[200vh] md:h-[65vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Programming Languages</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5'>
@@ -199,7 +198,7 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[110vh] md:h-[65vh] box font-light text-white'>
+                <div className='h-[100vh] md:h-[65vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Frameworks</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5'>
@@ -221,7 +220,7 @@ function App() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className='h-[110vh] md:h-[65vh] box font-light text-white'>
+                <div className='h-[100vh] md:h-[65vh] box font-light text-white'>
                   <h2 className='text-5xl mb-3 text-blue-300 font-medium'>Cloud Technologies</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <div className='flex flex-col space-y-10 md:flex-row md:space-x-10 md:space-y-0 ml-5'>
@@ -240,17 +239,11 @@ function App() {
                   <h2 className='text-5xl mb-3 text-blue-300'>Let's Collaborate!</h2>
                   <div className='h-1 md:w-1/2 border-t border-blue-100 mb-10' />
                   <form onSubmit={submitForm}>
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Name</label>
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Your Name</label>
                     <input onChange={(e) => setName(e.target.value)} placeholder="Enter name" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="text" name="from_name" />
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Email</label>
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Your Email</label>
                     <input onChange={(e) => setEmail(e.target.value)} placeholder="Enter email" className="rounded-xl p-3 mb-2 bg-slate-700 text-orange-300 md:w-1/3" type="email" name="from_email" />
-                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Select a topic</label>
-                    <select name="topic" className="appearance-none border border-gray-300 text-sm text-orange-300 rounded-lg bg-slate-700 focus:ring-blue-500 block focus:border-blue-500 md:w-1/3 p-2.5 dark:border-gray-600 dark:placeholder-gray-400 dark:focus:ring-blue-500 dark:focus:border-blue-500 mb-5 ml-6 md:ml-0">
-                      <option value="Frontend freelancing">Frontend freelancing</option>
-                      <option value="Backend freelancing">Backend freelancing</option>
-                      <option value="Full-stack freelancing">Full-stack freelancing</option>
-                      <option value="Other">Other</option>
-                    </select>
+                    <label className="block mb-2 text-sm font-medium text-gray-900 dark:text-blue-200">Your Note</label>
                     <textarea name="message" placeholder="Enter a note" className="p-3 h-[10rem] rounded-xl mb-5 bg-slate-700 text-orange-300 md:w-1/3" />
                     <br></br>
                     {name === "" || email === "" ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-slate-400 rounded-xl text-slate-200 opacity-50" type="button" disabled>Submit</button>

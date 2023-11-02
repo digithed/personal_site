@@ -5,7 +5,7 @@ function ProjectCard(props) {
   return (
     <div>
       {props.link !== "" ? <a href={props.link}>
-        <div style={{ "height": "250px", "width": "250px" }} className='rounded-xl shadow-lg bg-slate-600 text-white hover:scale-110 hover:shadow-blue-300 p-4'>
+        <div style={{ "height": "260px", "width": "250px" }} className='rounded-xl shadow-lg bg-slate-600 text-white hover:scale-110 hover:shadow-blue-300 p-4'>
 
           <div className="flex flex-col space-y-2 md:flex-row md:space-x-1 md:space-y-0 jutify-center md:justify-start">
             <div className="mt-5">
