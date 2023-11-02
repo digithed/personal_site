@@ -94,7 +94,7 @@ function HomePage() {
 
             <div className="picture-fade">
               <FadeInSection>
-                <div className="h-[135vh] md:h-[110vh] box font-light text-white">
+                <div className="h-[155vh] md:h-[110vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="heading text-5xl mb-3 font-medium text-blue-300">
                       My Overview
@@ -171,7 +171,7 @@ function HomePage() {
               </FadeInSection>
 
               <FadeInSection>
-                <div className="h-[125vh] md:h-[100vh] box font-light text-white">
+                <div className="h-[145vh] md:h-[100vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="heading text-5xl mb-3 font-medium text-blue-300">
                       Services
@@ -200,7 +200,7 @@ function HomePage() {
               </FadeInSection>
 
               <FadeInSection>
-                <div className="h-[130vh] md:h-[100vh] box">
+                <div className="h-[160vh] md:h-[100vh] box">
                   <h2 className="text-5xl md:mt-0 mb-3 font-medium text-blue-300">
                     Projects
                   </h2>
@@ -239,7 +239,7 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[270vh] md:h-[120vh] box font-light text-white">
+                <div className="h-[290vh] md:h-[120vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Programming Languages
                   </h2>
