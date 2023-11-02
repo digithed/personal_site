@@ -84,11 +84,11 @@ function App() {
             <h2 className="md:text-9xl text-7xl text-blue-300 pt-20 md:pl-10 text-title">Nick Rosenau</h2>
             <h2 className="md:text-7xl text-5xl text-blue-100 mt-5 mb-20 md:pl-10 text-subtitle">Software Engineer</h2>
             <div className='flex flex-col'>
-              <h1 className='ml-10 heading text-5xl mb-3 font-medium text-blue-300'>Mission Statement</h1>
+              <h1 className='ml-10 heading text-5xl mb-3 font-medium text-blue-300 text-subtitle'>Mission Statement</h1>
               <div className='ml-10 w-1/2'>
-              <h2 className='heading text-xl mb-3 font-medium text-white'>Welcome. If you've ever wanted to program or be a Software Engineer but doubted your abilities, keep reading...</h2>
+              <h2 className='heading text-xl mb-3 font-medium text-white text-subtitle'>Welcome. If you've ever wanted to program or be a Software Engineer but doubted your abilities, keep reading...</h2>
               <br></br>
-              {!showMission ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white mb-10" onClick={() => setShowMission(true)}>See More</button>
+              {!showMission ? <button style={{ width: "100px", cursor: "pointer" }} className="p-3 bg-blue-400 hover:bg-blue-500 rounded-xl text-white mb-10 text-subtitle" onClick={() => setShowMission(true)}>See More</button>
               :
               <>
               <MissionStatement/>
