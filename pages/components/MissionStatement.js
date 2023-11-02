@@ -1,5 +1,6 @@
 import { FiMail } from "react-icons/fi";
-export const MissionStatement = () => {
+
+function MissionStatement(){
     return(
         <>
          <h2 className='heading md:text-body text-xl mb-3 font-medium text-white'>
@@ -29,3 +30,5 @@ export const MissionStatement = () => {
         </>
     )
 }
+
+export default MissionStatement

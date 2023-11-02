@@ -1,5 +1,6 @@
 import React from "react";
-export const FadeInSection = (props) => {
+
+function FadeInSection(props) {
   const [isVisible, setVisible] = React.useState(true);
   const domRef = React.useRef();
   React.useEffect(() => {
@@ -19,3 +20,5 @@ export const FadeInSection = (props) => {
     </div>
   );
 }
+
+export default FadeInSection

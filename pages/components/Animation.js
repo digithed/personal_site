@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export const Animation = (props) => {
+function Animation(props) {
     const [iconMoved, setIconMoved] = useState(false);
     const [textVisible, setTextVisible] = useState(false);
   
@@ -29,8 +29,5 @@ export const Animation = (props) => {
       </div>
     );
   }
-  
-  
-  
 
-
+  export default Animation
