@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './IconMove.css';  // CSS file (create this)
-import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai'
 
 export const Animation = (props) => {
     const [iconMoved, setIconMoved] = useState(false);
