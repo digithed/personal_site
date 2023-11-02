@@ -4,8 +4,8 @@ import { BsArrowRightShort } from "react-icons/bs";
 function ProjectCard(props) {
   return (
     <div>
-      {props.link !== "" ? <a href={props.link}>
-        <div style={{ "height": "300px", "width": "300px" }} className='rounded-xl shadow-lg bg-slate-600 text-white hover:scale-110 hover:shadow-blue-300 p-4'>
+      {props.link !== "" ? 
+        <div style={{ "height": "300px", "width": "300px" }} className='rounded-xl shadow-lg bg-slate-600 text-white md:hover:scale-110 md:hover:shadow-blue-300 p-4'>
 
           <div className="flex flex-col space-y-2 md:flex-row md:space-x-1 md:space-y-0 jutify-center md:justify-start">
             <div className="mt-5">
@@ -17,9 +17,8 @@ function ProjectCard(props) {
             </div>
           </div>
           <h2 className='mt-5 text-white font-mono text-sm'>{props.project_description}</h2>
-          <div className="flex flex-row mt-5 space-x-2 justify-center md:justify-start"><p className="font-mono text-sm text-blue-300">View</p><BsArrowRightShort style={{'marginTop': '2px'}} /></div>
+          <a href={props.link}><div className="flex flex-row mt-5 space-x-2 justify-center md:justify-start"><p className="font-mono text-sm text-blue-300">View</p><BsArrowRightShort style={{'marginTop': '2px'}} /></div></a>
         </div>
-      </a>
 
         :
 
