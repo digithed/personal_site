@@ -13,14 +13,15 @@ import {
 } from "react-icons/fa";
 import { SiFlask } from "react-icons/si";
 import { DiJavascript1 } from "react-icons/di";
-import { FadeInSection } from "./components/FadeInSection";
+import FadeInSection from "./components/FadeInSection";
 import ProjectCard from "./components/ProjectCard";
 import { useEffect, useState } from "react";
 import emailjs from "emailjs-com";
-import { Animation } from "./components/Animation";
+import Animation from "./components/Animation";
 import ActionBar from "./components/ActionBar";
 import CodeSlash from "./components/CodeSlash";
 import HighlightButton from "./components/HighlightButton";
+
 
 function HomePage() {
   const [name, setName] = useState("");
@@ -67,6 +68,7 @@ function HomePage() {
     }
     animatestuff();
   }, []);
+
 
   return (
     <>

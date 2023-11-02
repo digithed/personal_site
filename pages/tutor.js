@@ -1,6 +1,6 @@
 import ActionBar from "./components/ActionBar";
 import CodeSlash from "./components/CodeSlash";
-import { MissionStatement } from "./components/MissionStatement";
+import MissionStatement from "./components/MissionStatement";
 
 function TutorPage() {
 

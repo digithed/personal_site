@@ -21,4 +21,4 @@ function FadeInSection(props) {
   );
 }
 
-export default FadeInSection
+export default FadeInSection;
