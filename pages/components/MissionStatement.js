@@ -13,7 +13,8 @@ function MissionStatement(){
               coding concepts from unique points of view, and not just espouse those of a CS major.
               <br></br>
               <br></br>
-              I am offering courses for learning programming in Python and Javascript/HTML. There are three levels for each course: Beginner, Intermediate, and Advanced. We will ease into learning starting from the chosen level and eventually build our own project together.
+              I am offering courses for learning programming in <strong><span className="text-orange-300">Python</span> and <span className="text-blue-300">Javascript/HTML</span></strong>. <strong>There are three levels for each course: <span className="text-green-300">Beginner</span>, <span className="text-yellow-300">Intermediate</span>, and <span className="text-red-300">Advanced</span></strong>.
+               We will ease into learning starting from the chosen level and eventually build our own project together.
               I offer a personalized experience of virtual 1:1 software engineer mentoring and tutoring.
               <br></br>
               <br></br>
