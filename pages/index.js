@@ -157,11 +157,13 @@ function HomePage() {
                   </h2>
                   <Animation
                     icon={<FaCog />}
-                    text={"3 Years working as a full-stack engineer"}
+                    text={"Cross-disciplinary Software Engineering Expertise"}
+                    content={"A strong background in software engineering with a specialization in the intersection of biology and technology. Able to bridge the gap between domain specific knowledge and engineering."}
                   />
                   <Animation
                     icon={<FaCrosshairs />}
-                    text={"Fluent in 3 programming languages"}
+                    text={"Technical Versatility and Innovation"}
+                    content={"Technical skills are not only deep but also broad, ranging from full-stack development to DevOps. Have also also demonstrated innovation by integrating machine learning into the browser using Rust and WebAssembly,"}
                   />
                   <Animation
                     icon={<FaCrown />}
@@ -239,12 +241,12 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[290vh] md:h-[110vh] box font-light text-white">
+                <div className="h-[290vh] md:h-[130vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Programming Languages
                   </h2>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <div className=".md-row-gap-120px flex flex-col space-y-40 md:flex-row md:flex-wrap md:gap-10 md:space-x-10 md:space-y-0 ml-5">
+                  <div className=".md-row-gap-120px flex flex-col space-y-40 md:flex-row md:flex-wrap md:gap-40 md:space-x-10 md:space-y-0 ml-5">
                     <div
                       onMouseOver={() => setPythonDetails(true)}
                       onMouseOut={() => setPythonDetails(false)}
@@ -353,12 +355,12 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[100vh] md:h-[65vh] box font-light text-white">
+                <div className="h-[100vh] md:h-[85vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Frameworks
                   </h2>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <div className="flex flex-col space-y-40 md:flex-row md:space-x-10 md:space-y-0 ml-5">
+                  <div className="flex flex-col space-y-40 md:flex-row md:space-x-10 gap-10 md:space-y-0 ml-5">
                     <div
                       onMouseOver={() => setReactDetails(true)}
                       onMouseOut={() => setReactDetails(false)}
@@ -399,7 +401,7 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[100vh] md:h-[65vh] box font-light text-white">
+                <div className="h-[80vh] md:h-[85vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Cloud Technologies
                   </h2>

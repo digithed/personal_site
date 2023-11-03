@@ -1,5 +1,6 @@
 import "./App.css";
 import "./IconMove.css";
+
 import { Head } from "next/document";
 function MyApp({ Component, pageProps }) {
   <Head>

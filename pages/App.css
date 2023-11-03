@@ -373,9 +373,10 @@
 
 @media (min-width: 768px) { /* This is the default breakpoint for 'md:' in Tailwind */
   .md-row-gap-120px {
-    row-gap: 120px;
+    row-gap: 150px;
   }
 }
+
 
 
 
