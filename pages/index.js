@@ -239,7 +239,7 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[300vh] md:h-[120vh] box font-light text-white">
+                <div className="h-[310vh] md:h-[120vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Programming Languages
                   </h2>
