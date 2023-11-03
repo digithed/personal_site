@@ -325,22 +325,6 @@
   background-color: #f2eecb !important;
 }
 
-.background-image-home {
-  background-image: url('../public/new-bg.png');
-  height: 100%;
-}
-
-.background-image-about {
-  background-image: url('../public/beach.png');
-  height: 100%;
-}
-
-.background-image-projects {
-  background-image: url('../public/ocean.png');
-  height: 100%;
-}
-
-
 
 .card-background {
   background-color: #57A998

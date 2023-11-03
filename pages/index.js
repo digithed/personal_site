@@ -94,7 +94,7 @@ function HomePage() {
 
             <div className="picture-fade">
               <FadeInSection>
-                <div className="h-[155vh] md:h-[110vh] box font-light text-white">
+                <div className="h-[145vh] md:h-[120vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="heading text-5xl mb-3 font-medium text-blue-300">
                       My Overview
@@ -171,7 +171,7 @@ function HomePage() {
               </FadeInSection>
 
               <FadeInSection>
-                <div className="h-[145vh] md:h-[100vh] box font-light text-white">
+                <div className="h-[135vh] md:h-[100vh] box font-light text-white">
                   <div className="flex flex-row space-x-2">
                     <h2 className="text-5xl md:mt-0 mb-3 font-medium text-blue-300">
                       Services
@@ -239,7 +239,7 @@ function HomePage() {
                 </div>
               </FadeInSection>
               <FadeInSection>
-                <div className="h-[310vh] md:h-[120vh] box font-light text-white">
+                <div className="h-[290vh] md:h-[110vh] box font-light text-white">
                   <h2 className="text-5xl mb-3 text-blue-300 font-medium">
                     Programming Languages
                   </h2>
@@ -358,7 +358,7 @@ function HomePage() {
                     Frameworks
                   </h2>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <div className="flex flex-col space-y-20 md:flex-row md:space-x-10 md:space-y-0 ml-5">
+                  <div className="flex flex-col space-y-40 md:flex-row md:space-x-10 md:space-y-0 ml-5">
                     <div
                       onMouseOver={() => setReactDetails(true)}
                       onMouseOut={() => setReactDetails(false)}
