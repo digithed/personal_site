@@ -21,7 +21,7 @@ import Animation from "./components/Animation";
 import ActionBar from "./components/ActionBar";
 import CodeSlash from "./components/CodeSlash";
 import HighlightButton from "./components/HighlightButton";
-
+import Link from "next/link";
 
 function HomePage() {
   const [name, setName] = useState("");
@@ -169,6 +169,25 @@ function HomePage() {
                     icon={<FaCrown />}
                     text={"2nd place in biotech hackathon; held in Boston"}
                   />
+                </div>
+              </FadeInSection>
+
+              <FadeInSection>
+                <div className="h-[115vh] md:h-[80vh] box font-light text-white">
+                  <div className="flex flex-row space-x-2">
+                    <h2 className="text-5xl md:mt-0 mb-3 font-medium text-blue-300">
+                      Current Coding Challenge
+                    </h2>
+                  </div>
+                  <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
+                  <h2 className="text-3xl text-orange-300">I occasionally think of new coding challenges. Here is the current one I've come up with:</h2>
+                  <br></br>
+                  <p className="text-xl">Find a subsequence of 5 integers with a sum equal to 18. Each number within the subsequence must be divisible by 2,
+                     each index of each number within the subsequence must be unique and in increaing order, and the full subsequence must be a palindrome. Return the subsequence as an array. Find the subsequence within this number:</p>
+                     <br></br>
+                     <p className="text-xl">12478965476314652</p>
+                     <br></br>
+                     <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"><Link href='/solution'>Solution</Link></button>
                 </div>
               </FadeInSection>
 

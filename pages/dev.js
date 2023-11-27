@@ -1,4 +1,5 @@
 import ActionBar from "./components/ActionBar";
+import { BackButton } from "./components/BackButton";
 import CodeSlash from "./components/CodeSlash";
 import { FiMail } from "react-icons/fi";
 
@@ -8,6 +9,9 @@ function DevPage() {
       <ActionBar />
       <div className="text-center md:text-left ml-10 md:ml-20 pt-10">
         <CodeSlash />
+        <div className="md:ml-10 pl-7">
+        <BackButton />
+        </div>
         <div className="md:ml-10 p-7 md:w-1/2">
           <h2 className="heading text-xl mb-3 font-medium text-white">
             Welcome. If you're a small business owner and need a customized
@@ -117,8 +121,8 @@ function DevPage() {
           <br></br>
           <br></br>
           <h2 className="text-2xl text-white">
-            If you're interested, please email me by clicking the orange mail icon to
-            the left that looks like so:
+            If you're interested, please email me by clicking the orange mail
+            icon to the left that looks like so:
           </h2>
           <br></br>
           {
