@@ -1,6 +1,6 @@
-import ActionBar from "./components/ActionBar";
-import { BackButton } from "./components/BackButton";
-import CodeSlash from "./components/CodeSlash";
+import ActionBar from "../components/ActionBar";
+import BackButton from "../components/BackButton";
+import CodeSlash from "../components/CodeSlash";
 import { FiMail } from "react-icons/fi";
 
 function DevPage() {
