@@ -1,4 +1,4 @@
-export const code = `
+const code = `
 def is_divisable_by_two(result):
     return len([x for x in result if x % 2  == 0]) == len(result)
 
@@ -23,3 +23,5 @@ def solution(numbers):
 
 print(solution([1, 2, 4, 7, 8, 9, 6, 5, 4, 7, 6, 3, 1, 4, 6, 5, 2]))
 `
+
+export default code

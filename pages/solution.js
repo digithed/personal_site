@@ -1,9 +1,9 @@
 import ActionBar from "./components/ActionBar";
-import { BackButton } from "./components/BackButton";
+import BackButton from "./components/BackButton";
 import CodeSlash from "./components/CodeSlash";
 import { Light as SyntaxHighlighter } from "react-syntax-highlighter/dist/cjs";
 import { docco } from "react-syntax-highlighter/dist/cjs/styles/hljs";
-import { code } from "./components/Code";
+import code from "./components/Code";
 import { useState } from "react";
 import TextWithCode from "./components/TextWithCode";
 
