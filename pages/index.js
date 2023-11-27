@@ -22,6 +22,7 @@ import ActionBar from "../components/ActionBar";
 import CodeSlash from "../components/CodeSlash";
 import HighlightButton from "../components/HighlightButton";
 import Link from "next/link";
+import TextWithCode from "../components/TextWithCode";
 
 function HomePage() {
   const [name, setName] = useState("");
@@ -68,7 +69,6 @@ function HomePage() {
     }
     animatestuff();
   }, []);
-
 
   return (
     <>
@@ -158,12 +158,16 @@ function HomePage() {
                   <Animation
                     icon={<FaCog />}
                     text={"Cross-disciplinary Software Engineering Expertise"}
-                    content={"A strong background in software engineering with a specialization in the intersection of biology and technology. Able to bridge the gap between domain specific knowledge and engineering."}
+                    content={
+                      "A strong background in software engineering with a specialization in the intersection of biology and technology. Able to bridge the gap between domain specific knowledge and engineering."
+                    }
                   />
                   <Animation
                     icon={<FaCrosshairs />}
                     text={"Technical Versatility and Innovation"}
-                    content={"Technical skills are not only deep but also broad, ranging from full-stack development to DevOps. Have also also demonstrated innovation by integrating machine learning into the browser using Rust and WebAssembly,"}
+                    content={
+                      "Technical skills are not only deep but also broad, ranging from full-stack development to DevOps. Have also also demonstrated innovation by integrating machine learning into the browser using Rust and WebAssembly,"
+                    }
                   />
                   <Animation
                     icon={<FaCrown />}
@@ -180,14 +184,20 @@ function HomePage() {
                     </h2>
                   </div>
                   <div className="h-1 md:w-1/2 border-t border-blue-100 mb-10" />
-                  <h2 className="text-3xl text-orange-300">I occasionally think of new coding challenges. Here is the current one I've come up with:</h2>
+                  <h2 className="text-3xl text-blue-300">
+                    I occasionally think of new coding challenges. Here is the
+                    current one I've come up with:
+                  </h2>
                   <br></br>
-                  <p className="text-xl">Find a subsequence of 5 integers with a sum equal to 18. Each number within the subsequence must be divisible by 2,
-                     each index of each number within the subsequence must be unique and in increaing order, and the full subsequence must be a palindrome. Return the subsequence as an array. Find the subsequence within this number:</p>
-                     <br></br>
-                     <p className="text-xl">12478965476314652</p>
-                     <br></br>
-                     <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"><Link href='/solution'>Solution</Link></button>
+                  <TextWithCode
+                    text={`\`Find a subsequence of 5 integers with a sum equal to 18. Each number within the subsequence must be divisible by 2,
+                     each index of each number within the subsequence must be unique and in increaing order, and the full subsequence must be a palindrome. Return the subsequence as an array. Find the subsequence within this number:
+                     12478965476314652 \``}
+                  />
+                  <br></br>
+                  <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
+                    <Link href="/solution">Solution</Link>
+                  </button>
                 </div>
               </FadeInSection>
 
